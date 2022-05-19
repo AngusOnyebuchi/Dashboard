@@ -1,0 +1,16 @@
+import React from 'react'
+import { FaBars, FaTimes } from "react-icons/fa"
+
+export default function NavBar() {
+  return (
+    <div>
+        <div>
+            <FaBars/>
+        </div>
+        
+        <div>
+            <FaTimes/>
+        </div>
+    </div>
+  )
+}
