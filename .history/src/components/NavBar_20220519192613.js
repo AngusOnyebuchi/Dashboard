@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaBars } from "react-icons/fa"
 
 export default function NavBar() {
   return (

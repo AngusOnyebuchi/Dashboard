@@ -1,10 +1,11 @@
 import React from 'react'
+import { FaBars } from "react-icons/fa"
 
 export default function NavBar() {
   return (
     <div className=' fixed w-[200px] h-screen px-8 py-4 text-white bg-black'>
         <div>
-            <h1 className='p-1 w-12 bg-white text-center text-black'><strong>A.D</strong></h1>
+            <h1 className='p-2 bg-white text-black'><strong>A.D</strong></h1>
         </div>
         
         <div>

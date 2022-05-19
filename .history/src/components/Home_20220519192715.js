@@ -14,7 +14,7 @@ export default function Home() {
             <img alt=''/>
           </div>
 
-          <p><strong>--</strong></p>
+          <p><strong>-</strong></p>
 
           <div className='px-4 py-2 bg-white border-[1px] rounded-md border-blue-400'>
             <p>22 April 2022</p>
@@ -26,7 +26,7 @@ export default function Home() {
         
 
         {/** The second part after the nav */}
-        <div className='flex gap-4 mt-12'>
+        <div className='flex gap-4 mt-4'>
           
           <div className='ml-[200px]'>
           <div className='flex items-center gap-4'>

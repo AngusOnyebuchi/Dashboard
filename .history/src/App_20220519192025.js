@@ -110,7 +110,7 @@ useEffect(()=> {
           </Layout>
           }/>
 
-          <Route path='/register' element={<Register/>}/>
+          <Route path='/createAccount' element={<Register/>}/>
 
           <Route path='/team' element={
             <Layout>

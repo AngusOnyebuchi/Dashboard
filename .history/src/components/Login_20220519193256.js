@@ -14,7 +14,8 @@ export default function Login() {
             </div>
             
             <div className='flex items-center gap-4'>
-                <a href='/register'><p className='cursor-pointer'>Register/Create Account</p></a>
+                <a href='/createAccount'><p className='cursor-pointer font-semibold'>Register</p></a>
+                <p className='cursor-pointer'>Contact Us</p>
             </div>
         </div>
         <div className='ml-[340px]'>
@@ -36,7 +37,7 @@ export default function Login() {
                     className="my-4 py-2 px-8 bg-[#ccd6f6] rounded-2xl"
                 />
                 <a href='/dashboard'>
-                    <button className="text-black border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 flex rounded-2xl font-bold w-[595px] "><p className='flex text-center ml-60'>LOGIN</p></button>
+                    <button className="text-black border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 flex rounded-2xl font-bold w-[595px] "><p className='flex text-center'>LOGIN</p></button>
                 </a>
 
                 <div className='flex justify-between items-center gap-12 text-xl mt-4'>

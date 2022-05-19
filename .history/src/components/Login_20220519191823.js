@@ -8,16 +8,17 @@ export default function Login() {
 
         <div className='text-center text-black mt-0'>
         <div className='flex justify-between items-center p-8'>
-            <div className='flex gap-4 ml-4'>
+            <div className='flex gap-4 ml-48'>
                 <img alt=''/>
-                <p className='text-3xl bg-black text-white p-2'><strong>AD</strong></p>
+                <p>AD</p>
             </div>
             
             <div className='flex items-center gap-4'>
-                <a href='/register'><p className='cursor-pointer'>Register/Create Account</p></a>
+                <a href='/createAccount'><p className='cursor-pointer'>Register</p></a>
+                <p className='cursor-pointer'>Contact Us</p>
             </div>
         </div>
-        <div className='ml-[340px]'>
+        <div className='ml-[300px]'>
         <div className="flex flex-col max-w-[600px] w-full">
                 <div className="pb-8 mt-4">
                     <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black">Admin Dashboard</p>
@@ -36,7 +37,7 @@ export default function Login() {
                     className="my-4 py-2 px-8 bg-[#ccd6f6] rounded-2xl"
                 />
                 <a href='/dashboard'>
-                    <button className="text-black border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 flex rounded-2xl font-bold w-[595px] "><p className='flex text-center ml-60'>LOGIN</p></button>
+                    <button className="text-black border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 flex rounded-2xl font-bold w-[595px] "><p className='flex text-center'>LOGIN</p></button>
                 </a>
 
                 <div className='flex justify-between items-center gap-12 text-xl mt-4'>

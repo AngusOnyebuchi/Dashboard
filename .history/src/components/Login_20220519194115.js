@@ -14,7 +14,7 @@ export default function Login() {
             </div>
             
             <div className='flex items-center gap-4'>
-                <a href='/register'><p className='cursor-pointer'>Register/Create Account</p></a>
+                <a href='/createAccount'><p className='cursor-pointer'>Register</p></a>
             </div>
         </div>
         <div className='ml-[340px]'>

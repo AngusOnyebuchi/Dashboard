@@ -110,7 +110,7 @@ useEffect(()=> {
           </Layout>
           }/>
 
-          <Route path='/register' element={<Register/>}/>
+          <Route path='/createAccount' element={<Register/>}/>
 
           <Route path='/team' element={
             <Layout>
@@ -129,7 +129,7 @@ useEffect(()=> {
             <Layout>
             <div className='px-8'>
             <div className='text-center p-8 text-black'>
-              <h1 className='text-3xl inline border-b-4 border-pink-600'>Our Clients</h1>
+              <h1 className='text-3xl'>Our Clients</h1>
             </div>
             <div className='grid grid-cols-3 pb-12'>
             {clientsElement}
@@ -142,7 +142,7 @@ useEffect(()=> {
             <Layout>
             <div className='px-8'>
             <div className='text-center p-8 text-black'>
-              <h1 className='text-3xl inline border-b-4 border-pink-600'>Our Products</h1>
+              <h1 className='text-3xl'>Our Products</h1>
             </div>
             <div className='grid grid-cols-3 pb-12'>
             {productsElement}
