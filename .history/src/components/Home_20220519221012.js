@@ -64,7 +64,7 @@ export default function Home() {
               <hr/>
             </div>
             
-            <div className='flex items-center px-4 gap-16'>
+            <div className='flex items-center px-12 gap-16'>
               <div>
                 <p className='text-xl font-bold mb-4'>Date/ Week</p>
                 <p className='mb-2'>Week 1</p>

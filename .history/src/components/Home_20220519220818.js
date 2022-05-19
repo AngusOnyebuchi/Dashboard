@@ -59,12 +59,11 @@ export default function Home() {
 
           <div className='h-[300px] w-[725px] bg-white mt-4'>
 
-            <div className='text-3xl px-12 py-8'>
+            <div className='text-3xl px-12 py-4'>
               <p className='font-bold'>Sales Report</p>
-              <hr/>
             </div>
             
-            <div className='flex items-center px-4 gap-16'>
+            <div className='flex items-center px-12 gap-16'>
               <div>
                 <p className='text-xl font-bold mb-4'>Date/ Week</p>
                 <p className='mb-2'>Week 1</p>
@@ -92,13 +91,6 @@ export default function Home() {
                 <p className='mb-2'>$11725</p>
                 <p className='mb-2'>$15220</p>
                 <p className='mb-2'>$18585</p>
-              </div>
-              <div>
-                <p className='text-xl font-bold mb-4'>Expenses</p>
-                <p className='mb-2'>$1730</p>
-                <p className='mb-2'>$2950</p>
-                <p className='mb-2'>$3430</p>
-                <p className='mb-2'>$3354</p>
               </div>
 
             </div>

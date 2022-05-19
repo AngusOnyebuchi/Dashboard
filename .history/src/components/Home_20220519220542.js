@@ -6,7 +6,7 @@ export default function Home() {
 
           {/** The first part after the nav */}
       <div className='flex justify-between p-4 items-center'>
-        <h1 className='font-bold text-3xl ml-48'>Dashboard Overview</h1>
+        <h1 className='font-bold text-xl ml-48'>Dashboard Overview</h1>
 
         <div className='flex items-center gap-4'>
           <div className='px-4 py-2 bg-white border-[1px] rounded-md border-blue-400'>
@@ -59,32 +59,17 @@ export default function Home() {
 
           <div className='h-[300px] w-[725px] bg-white mt-4'>
 
-            <div className='text-3xl px-12 py-8'>
+            <div className='text-3xl px-12 py-4'>
               <p className='font-bold'>Sales Report</p>
-              <hr/>
             </div>
             
-            <div className='flex items-center px-4 gap-16'>
+            <div className='flex items-center px-12 gap-16'>
               <div>
                 <p className='text-xl font-bold mb-4'>Date/ Week</p>
                 <p className='mb-2'>Week 1</p>
                 <p className='mb-2'>Week 2</p>
                 <p className='mb-2'>Week 3</p>
                 <p className='mb-2'>Week 4</p>
-              </div>
-              <div>
-                <p className='text-xl font-bold mb-4'>Income</p>
-                <p className='mb-2'>$10253</p>
-                <p className='mb-2'>$11725</p>
-                <p className='mb-2'>$15220</p>
-                <p className='mb-2'>$18585</p>
-              </div>
-              <div>
-                <p className='text-xl font-bold mb-4'>Expenses</p>
-                <p className='mb-2'>$1730</p>
-                <p className='mb-2'>$2950</p>
-                <p className='mb-2'>$3430</p>
-                <p className='mb-2'>$3354</p>
               </div>
               <div>
                 <p className='text-xl font-bold mb-4'>Income</p>

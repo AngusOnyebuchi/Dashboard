@@ -94,7 +94,7 @@ export default function Home() {
                 <p className='mb-2'>$18585</p>
               </div>
               <div>
-                <p className='text-xl font-bold mb-4'>Expenses</p>
+                <p className='text-xl font-bold mr-2 mb-4'>Expenses</p>
                 <p className='mb-2'>$1730</p>
                 <p className='mb-2'>$2950</p>
                 <p className='mb-2'>$3430</p>
