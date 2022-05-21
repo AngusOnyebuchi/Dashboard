@@ -75,16 +75,16 @@ export default function Register () {
                     value={signupData.confirmPassword} 
                     className="my-4 py-2 px-8 bg-[#ccd6f6] rounded-2xl"
                     />
-                <div className='ml-4'>
+                <div>
                 <input 
                     type="checkbox"
                     name="joinNewsletter"
                     onChange={handleChange}
                     checked={signupData.joinNewsletter}
                 />
-                <label htmlFor="joinNewsletter" className="ml-4">I want to join the newsletter</label>
+                <label htmlFor="joinNewsletter">I want to join the newsletter</label>
                 </div>
-                <button onSubmit={handleSubmit}
+                <button onClick={handleSubmit}
                     className="text-black border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 flex rounded-2xl font-bold w-[595px] "><p className='flex text-center ml-52'>Create Account</p></button>
 
                 <div className='flex justify-between items-center gap-12 text-xl text-black mt-4 px-2'>

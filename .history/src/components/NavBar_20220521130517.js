@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <div className=' fixed w-[200px] h-screen px-8 py-4 text-white bg-black'>
         <div>
-            <h1 className='p-1 mt-4 w-12 border-2 border-white text-center text-white'><strong>A.D</strong></h1>
+            <h1 className='p-1 mt-2 w-12 border-2 border-white text-center text-white'><strong>A.D</strong></h1>
         </div>
         
         <div>

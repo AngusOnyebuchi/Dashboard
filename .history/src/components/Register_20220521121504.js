@@ -38,7 +38,7 @@ export default function Register () {
     return (
         <div name="register">
             <div className='ml-[350px]'>
-            <form method="POST" action="https://getform.io/f/fe45028b-14d7-4641-8e48-4acf76466533" className="flex flex-col max-w-[600px] w-full">
+            <form  className="flex flex-col max-w-[600px] w-full">
                 <div className="pb-8 mt-12 pt-8">
                     <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black">Create new account</p>
                 </div>
@@ -75,14 +75,14 @@ export default function Register () {
                     value={signupData.confirmPassword} 
                     className="my-4 py-2 px-8 bg-[#ccd6f6] rounded-2xl"
                     />
-                <div className='ml-4'>
+                <div>
                 <input 
                     type="checkbox"
                     name="joinNewsletter"
                     onChange={handleChange}
                     checked={signupData.joinNewsletter}
                 />
-                <label htmlFor="joinNewsletter" className="ml-4">I want to join the newsletter</label>
+                <label htmlFor="joinNewsletter">I want to join the newsletter</label>
                 </div>
                 <button onSubmit={handleSubmit}
                     className="text-black border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 flex rounded-2xl font-bold w-[595px] "><p className='flex text-center ml-52'>Create Account</p></button>

@@ -44,7 +44,7 @@ export default function Login() {
         <div className='ml-[340px]'>
         <div className="flex flex-col max-w-[600px] w-full">
                 <div className="pb-8 mt-4">
-                    <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black">Angus Dashboard</p>
+                    <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black">Admin Dashboard</p>
                     <p className="text-black pt-5">Login to your dashboard or create a new account</p>
                 </div>
                 <input 
@@ -63,18 +63,18 @@ export default function Login() {
                     value={user.password}
                     className="my-4 py-2 px-8 bg-[#ccd6f6] rounded-2xl"
                 />
-                <div className='text-left ml-4'>
+                <div>
                 <input 
                     type="checkbox"
                     name="isLoggedIn"
                     onChange={handleChange}
                     checked={user.isLoggedIn}
                 />
-                <label htmlFor="joinNewsletter" className='ml-4'>Keep me logged in on this device</label>
+                <label htmlFor="joinNewsletter">Keep me logged in on this device</label>
                 </div>
 
                 <NavLink to='/dashboard'>
-                    <button onSubmit={handleSubmit}
+                    <button onClick={handleSubmit}
                     className="text-black border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 flex rounded-2xl font-bold w-[595px] "><p className='flex text-center ml-60'>LOGIN</p></button>
                 </NavLink>
 

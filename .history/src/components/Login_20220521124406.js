@@ -44,7 +44,7 @@ export default function Login() {
         <div className='ml-[340px]'>
         <div className="flex flex-col max-w-[600px] w-full">
                 <div className="pb-8 mt-4">
-                    <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black">Angus Dashboard</p>
+                    <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-black">Admin Dashboard</p>
                     <p className="text-black pt-5">Login to your dashboard or create a new account</p>
                 </div>
                 <input 
@@ -63,7 +63,7 @@ export default function Login() {
                     value={user.password}
                     className="my-4 py-2 px-8 bg-[#ccd6f6] rounded-2xl"
                 />
-                <div className='text-left ml-4'>
+                <div className='text-left ml-2'>
                 <input 
                     type="checkbox"
                     name="isLoggedIn"
