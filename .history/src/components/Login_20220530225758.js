@@ -30,7 +30,7 @@ export default function Login() {
   return (
     <div name="login" className='w-full '>
     
-    <div className='h-[460px] w-[400px] my-20 mx-2 md:mx-[440px] bg-white'>
+    <div className='h-[460px] w-[400px] my-20 md:mx-[440px] bg-white'>
 
         <div className='text-center'>
         <div className='items-center ml-2 mb-2 p-8'>
