@@ -37,7 +37,7 @@ export default function Register () {
 
     return (
         <div name="register">
-            <div className='h-[460px] w-[400px] my-20 mx-12 md:mx-[440px] bg-white'>
+            <div className='h-[460px] w-[400px] my-20 mx-20 sm:mx-[440px] bg-white'>
             <form method="POST" action="https://getform.io/f/fe45028b-14d7-4641-8e48-4acf76466533" className="flex flex-col max-w-[600px] w-full">
                 <div className="pb-5 pt-8">
                     <p className="text-2xl ml-20 font-bold text-blue-900">Create New Account</p>
